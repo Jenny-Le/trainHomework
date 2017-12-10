@@ -1,0 +1,26 @@
+.jumbotron{
+    background-color: gray;
+    color: black;
+    border: 1px solid black;
+}
+
+.table{
+    table-layout: fixed;
+}
+
+.panel-gray{
+    border-color: black;
+}
+
+.panel-gray > .panel-heading{
+    color: black;
+    background-color: gray;
+    border-color: gray;
+    font-weight: bold;
+}
+
+.btn-gray{
+    color: black;
+    background-color: gray;
+    border-color: gray;
+}
