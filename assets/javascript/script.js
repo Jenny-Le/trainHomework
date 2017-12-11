@@ -1,10 +1,10 @@
-  var config = {
-    apiKey: "AIzaSyCF55pWEBCYO8doOwffqmYRn8_W5a-WPSI",
-    authDomain: "trnTime-8f3c9.firebaseapp.com",
-    databaseURL: "https://traintime-8f3c9.firebaseio.com",
-    projectId: "traintime-8f3c9",
-    storageBucket: "traintime-8f3c9.appspot.com",
-    messagingSenderId: "597308026326"
+var config = {
+    apiKey: "AIzaSyCbknc-HKGGggnd6NRadZoIlwKBC_sZ3Jk",
+    authDomain: "trainproject-e52ad.firebaseapp.com",
+    databaseURL: "https://trainproject-e52ad.firebaseio.com",
+    projectId: "trainproject-e52ad",
+    storageBucket: "trainproject-e52ad.appspot.com",
+    messagingSenderId: "967996273382"
   };
 firebase.initializeApp(config);
 
@@ -13,7 +13,7 @@ var database = firebase.database();
 $("#submit").on("click", function () {
     event.preventDefault();
 
-    var trnName = $("#t-time").val().trim();
+    var trnName = $("#t-name").val().trim();
     var trnDestination = $("#t-destination").val().trim();
     var trnTime = $("#first-time").val().trim();
     var trnFrequency = $("#t-frequency").val().trim();
